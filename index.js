@@ -251,28 +251,28 @@ function notHesapla(sınavSonucu){
 
   for(let i=90;i<=100;i++){
     if(sınavSonucu===i){
-      console.log("A aldın'")
+      console.log('A aldın')
     }
 
   }
   for(let i=80;i<=89;i++){
     if(sınavSonucu===i){
-      console.log("B aldın")
+      console.log('B aldın')
   }
 
     }
     for(let i=70;i<=79;i++){
       if(sınavSonucu===i){
-        console.log("C aldın")}
+        console.log('C aldın')}
 
       }
       for(let i=60;i<=69;i++){
         if(sınavSonucu===i){
-          console.log("D aldın")}
+          console.log('D aldın')}
         }
         for(let i=0;i<69;i++){
           if(sınavSonucu===i){
-            console.log("F aldın")
+            console.log('F aldın')
           }
         }
        
@@ -299,6 +299,7 @@ Aşağıdakileri sesliHarfSayaci fonskiyonunda yapın.
 function sesliHarf (kelime) {
   let sesliHarf=["a","e","ı","i","o","ö","u","ü"];
  if(kelime.includes(sesliHarf)){
+
   console.log("çalışıyor")
  }
 
